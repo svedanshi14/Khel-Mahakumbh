@@ -1,0 +1,182 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    line-height: 4vh;
+    margin: 0%;
+    padding: 0%;
+    font-size: 3vmin;
+    text-align: justify;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */ 
+
+header {
+    background-color:#133B70;
+    color: #ffffff;
+    padding: 0px;
+}
+  
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+nav .logo {
+    margin-right: auto;
+    padding-left: 5px;
+}
+  
+nav .logo img {
+    width: 500px; 
+    height: auto; 
+}
+  
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+    margin-right: -150px;
+}
+  
+.nav-links li {
+    margin-left: 20px;
+    font-size: 30px;
+}
+  
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}  
+  
+.nav-links a:hover{
+    text-decoration: underline;
+}
+  
+/* Dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropbtn{
+    font-size: 25px;
+    font-weight: 800;
+    color:#f1f1f1;
+    border: 3px solid #f1f1f1;
+    border-radius: 16px;
+    background-color: #133B70;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    font-size: 22px;
+    min-width: 345px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}  
+
+/* Inner Banner */ 
+
+.bannerImg{
+    height: 266.508;
+    width: 1855px;
+}
+
+  
+/* Main Body */
+
+#about{
+    margin: 1%;
+    padding: 2.5%;
+}
+
+hr{
+    margin-top: -1%;
+    color: grey;
+}
+
+.para1 {
+    display: flex;
+    align-items:flex-start;
+}
+
+.para1 img {
+    margin-left: 50px;
+    min-width: 15vw;
+    min-height: 15vh;
+}
+
+h2{
+    color: #133B70;
+    font-family: 'Poppins', sans-serif;
+}
+
+.para3 {
+    display: flex;
+    align-items:flex-start;
+}
+
+.para3 img {
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 15vw;
+    height: 30vh;
+}  
+
+/* Contact */
+#contact {
+    padding: 0.1% 35% 0.3% 3%;
+    text-align:left;
+    background-color: #133B70;
+    color: #fefefe;
+}
+  
+#contact h2 {
+    color: #fefefe;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+  
+/* Footer */
+footer {
+    background-color:#031e43;
+    color: #fff;
+    padding: 1% 35% 1% 0%;
+}
+  
+.ftr li{
+    list-style-type: none; 
+    text-align: left;
+    padding-left: 0%;
+    display: inline;
+    word-spacing: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+  
+.ftr a{
+    text-decoration: none;
+    color: #fefefe;
+}
